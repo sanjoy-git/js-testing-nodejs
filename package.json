@@ -4,13 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --watchAll",
+    "build": "webpack --mode production --watch"
   },
   "keywords": [],
   "author": "Sanjoy",
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^29.5.2",
-    "jest": "^29.5.0"
+    "jest": "^29.5.0",
+    "webpack": "^5.87.0",
+    "webpack-cli": "^5.1.4"
   }
 }

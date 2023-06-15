@@ -1,0 +1,1 @@
+(()=>{var r={632:r=>{console.log("app.js run"),document.getElementById("display").innerHTML="What is this?",r.exports=function(r,t){return r+t}}},t={};!function e(n){var o=t[n];if(void 0!==o)return o.exports;var s=t[n]={exports:{}};return r[n](s,s.exports,e),s.exports}(632)})();
